@@ -18,6 +18,28 @@
 |    ++    | Increment      | Increases the value of a variable by 1 |   ++x   | `int x = 10 ;printf("%d", ++x)` |
 |    --    | Decrement      | Decreases the value of a variable by 1 |   --x   | `int y = 5 ; printf("%d", --y)` |
 
+## In C programming, both `x++` (post-increment) and `++x` (pre-increment) are acceptable and commonly used. However, there is a difference in their behavior:
+
+1. **`x++` (Post-increment)**: 
+   - The value of `x` is returned first, and then `x` is incremented by 1.
+   - Example:
+     ```c
+     int x = 5;
+     int y = x++; // y gets the value 5, then x becomes 6
+     ```
+
+2. **`++x` (Pre-increment)**:
+   - `x` is incremented first, and then the new value of `x` is returned.
+   - Example:
+     ```c
+     int x = 5;
+     int y = ++x; // x becomes 6, then y gets the value 6
+     ```
+
+The key difference is whether the increment happens before or after the value of `x` is used in an expression.
+
+
+
 ## Assignment Operators
 
 | Operator | Example | Same As    |
