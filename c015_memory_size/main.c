@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main()
-{
-  
+int main() {
+
   int myInt;
   float myFloat;
   double myDouble;
@@ -12,7 +11,6 @@ int main()
   printf("%lu\n", sizeof(myFloat));
   printf("%lu\n", sizeof(myDouble));
   printf("%lu\n", sizeof(myChar));
-
 
   return 0;
 }

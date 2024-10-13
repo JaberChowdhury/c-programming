@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
   // Arithmetic operator
   const int x = 1090;
   const int y = 8277;
@@ -15,11 +14,7 @@ int main()
   printf("Increment %d\n", ++z);
   printf("Decrement %d\n", --z);
 
-  
   // Assignment operator
-
-
-
 
   return 0;
 }

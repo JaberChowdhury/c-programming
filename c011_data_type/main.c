@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
   int x = 100;
   float y = 100.775;
   char z = 'G';

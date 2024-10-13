@@ -12,6 +12,6 @@ int main() {
 
   // Output the text
   printf("Hello %s", fullName);
-  
+
   return 0;
 }

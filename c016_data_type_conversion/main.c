@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
   int x = 5 / 2;
   printf("print x as int %d\n", x);
   // printf("print x as float %f\n", x);
@@ -20,14 +19,12 @@ int main()
   // printf("print z as int %d\n", z);
   // printf("print z as char %c\n", z);
 
-  
   // Explicit conversion
   int meal = 101;
   int person = 42;
-  float total_fee = (float) meal * person;
+  float total_fee = (float)meal * person;
 
-  printf("Your total fee is %.1f\n",total_fee);
-
+  printf("Your total fee is %.1f\n", total_fee);
 
   return 0;
 }

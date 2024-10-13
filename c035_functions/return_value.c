@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int calculateSum(int x, int y) {
-  return x + y;
-}
+int calculateSum(int x, int y) { return x + y; }
 
 int main() {
   // Create an array
   int resultArr[6];
 
-  // Call the function with different arguments and store the different results in the array
+  // Call the function with different arguments and store the different results
+  // in the array
   resultArr[0] = calculateSum(5, 3);
   resultArr[1] = calculateSum(8, 2);
   resultArr[2] = calculateSum(15, 15);
