@@ -1,3 +1,7 @@
 #include <stdio.h>
 
-int main() { return 0; }
+int main() {
+  int myAge = 43;
+  printf("%p", &myAge);
+  return 0;
+}
