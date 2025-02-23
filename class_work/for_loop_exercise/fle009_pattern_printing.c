@@ -5,9 +5,9 @@ int main()
     int limit;
     printf("Enter the limit: ");
     scanf("%d", &limit);
-    for (int i = 0; i < limit; i++)
+    for (int i = 1; i <= limit; i++)
     {
-        for (int i = limit; i > i; i--)
+        for (int j = 1; j <= i; j++)
         {
             printf("*");
         }
@@ -15,5 +15,3 @@ int main()
     }
     return 0;
 }
-
-// not completed yet
