@@ -3,6 +3,8 @@
 
 int main()
 {
+    // double a = 10.0, b = 20.1, c = 5.1;
+    // double a = 0.0, b = 20.0, c = 5.0;
     double a, b, c;
     scanf("%lf %lf %lf", &a, &b, &c);
     float discriminant = ((b * b) - 4 * a * c);
